@@ -67,6 +67,7 @@ public class RegistActivity extends AppCompatActivity implements OnClickListener
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
+
                             Toast.makeText(RegistActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     });
