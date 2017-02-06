@@ -63,11 +63,10 @@ public class RegistActivity extends AppCompatActivity implements OnClickListener
                     finish();
                 } catch (final HyphenateException e) {
                     e.printStackTrace();
-                    Log.e(TAG,"注册状态"+e.getMessage());
+                    Log.e(TAG,"注册v状态"+e.getMessage());
                     runOnUiThread(new Runnable() {
                         @Override
                         public void run() {
-
                             Toast.makeText(RegistActivity.this, e.getMessage(), Toast.LENGTH_SHORT).show();
                         }
                     });
