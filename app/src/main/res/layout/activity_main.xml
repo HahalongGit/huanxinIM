@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lll.myimtest.MainActivity">
+
+
+    <EditText
+        android:id="@+id/edit_userID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:paddingRight="10dp"
+        android:paddingLeft="15dp"
+        android:hint="输入一个聊天对象id." />
+
+    <Button
+        android:id="@+id/btn_submit"
+        android:layout_below="@+id/edit_userID"
+        android:layout_width="match_parent"
+        android:layout_marginTop="12dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="开始聊天" />
+
+    <Button
+        android:text="退出登录"
+        android:layout_below="@+id/btn_submit"
+        android:layout_marginTop="15dp"
+        android:id="@+id/btn_loginOut"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
